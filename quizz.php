@@ -6,18 +6,18 @@
     <link rel="stylesheet" href="style2.css">
 </head>
 <header>
-<h3> Quiz szkolnych </h3>
+<p> Quiz szkolnych </p>
 
 </header>
 <body>
     <div class="php"></div>
   <?php
- $db = new mysqli("localhost", "root", "", "quiz");
+ $db = new mysqli("localhost", "root", "", "mydb");
 
-        $sql= 'SELECT * FROM test';
+        $sql= 'SELECT * FROM mydb';
 
-    $res = $con->query("SELECT id, pytanie FROM pytania WHERE id=$idpytania");
-    $row = $res->fetch_all(MYSQLI_ASSOC);
+    $res = $db -> query("SELECT id, pytanie FROM pytania WHERE id=$idpytania");
+    $row = $res -> fetch_all(MYSQLI_ASSOC);
     
    
      $sqlpytanie = "SELECT id, pytanie FROM pytania WHERE id = ".$randpytanie.";";
