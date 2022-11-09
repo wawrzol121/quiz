@@ -1,0 +1,58 @@
+header{
+    text-align: center;
+    background-color: blue;
+    height: 50px;
+}
+
+.php{
+    width: 20%;
+    height: 300px;
+    background-color: skyblue;
+float: left;
+    
+}
+
+.php1{
+    width: 20%;
+    height: 300px;
+    background-color: skyblue;
+    float: left;
+    
+}
+.php2{
+    width: 20%;
+    height: 300px;
+    background-color: skyblue;
+    float: left;
+}
+.php3{
+    width: 20%;
+    height: 300px;
+    background-color: skyblue;
+    
+    float: left;
+}
+.php4{
+    width: 20%;
+    height: 300px;
+    background-color: skyblue;
+    float: left;
+}
+.php5{
+    
+    width: 100%;
+    height: 100px;
+    background-color: skyblue;
+    text-align: center;
+    float: left;
+    
+}
+.lewy{
+    
+    text-align: center;
+    background-color: blue;
+    height: 100px;
+    float: none;
+    clear: both
+    
+}
